@@ -19,6 +19,7 @@ body{
 }
 main{
     display: grid;
+    grid-template-columns: 60fr 1fr;
 }
 .logo{
     width: 400px;
@@ -31,6 +32,7 @@ main{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    width: 100px;
 }
 
 .trailer {
@@ -39,8 +41,9 @@ main{
 .redes{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-left: 1150px;
-    background-color: lawngreen;
-    height: 100%;
+    width: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    row-gap: 10px;
+    margin-bottom: 150px;
 }
