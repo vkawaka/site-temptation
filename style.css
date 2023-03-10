@@ -23,7 +23,24 @@ main{
 .logo{
     width: 400px;
 }
-.teste{
+.info{
+    font-size: 15px;
+    width: 450px;
+}
+.links{
     display: flex;
-    width: 100px 100px 100px;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.trailer {
+    width: 200px;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 1150px;
+    background-color: lawngreen;
+    height: 100%;
 }
