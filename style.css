@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: azure;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    padding: 30px 100px 24px 70px ;
+    font-family: 'Lato', sans-serif;
+}
+.quatro{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+}
+main{
+    display: grid;
+}
+.logo{
+    width: 400px;
+}
+.teste{
+    display: flex;
+    width: 100px 100px 100px;
+}
