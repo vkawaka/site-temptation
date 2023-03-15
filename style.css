@@ -13,7 +13,7 @@ body{
     font-family: 'Lato', sans-serif;
     background-image: url(./img/background.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 .quatro{
@@ -30,8 +30,9 @@ main{
     width: 400px;
 }
 .info{
-    font-size: 15px;
+    font-size: 13px;
     width: 450px;
+    margin-bottom: 9px;
 }
 .links{
     display: flex;
@@ -50,5 +51,7 @@ main{
     align-items: center;
     justify-content: flex-end;
     row-gap: 10px;
-    margin-bottom: 150px;
+    position: fixed;
+    bottom: 35%;
+    right: 5%;
 }
