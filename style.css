@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: azure;
+
 }
 body{
     height: 100vh;
@@ -10,6 +11,9 @@ body{
     grid-template-rows: 100px 1fr 100px;
     padding: 30px 100px 24px 70px ;
     font-family: 'Lato', sans-serif;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .quatro{
     display: flex;
