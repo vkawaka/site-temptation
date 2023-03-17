@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.cab{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 400px 400px;
+}
